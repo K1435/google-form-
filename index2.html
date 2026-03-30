@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>College Registration Form</title>
+  <link rel="stylesheet" href="style1.css">
+  <script src="form.js" defer></script>
+</head>
+<body>
+  <form method="POST" action="https://sheetdb.io/api/v1/ojfddo0nkvc63">
+    <!--Text Input-->
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="fullname" placeholder="Enter your full name" required><br><br>
+
+    <!--Email-->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+    <!--Password-->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+    <!--Phone-->
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+
+    <!--Date-->
+    <label for="date">Date of Birth:</label><br>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <!--Radio Button-->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br><br>
+
+    <!--Checkbox-->
+    <label>Hobbies:</label><br>
+    <input type="checkbox" id="hobby1" name="hobbies" value="reading">
+    <label for="hobby1">Reading</label><br>
+    <input type="checkbox" id="hobby2" name="hobbies" value="sports">
+    <label for="hobby2">Sports</label><br>
+    <input type="checkbox" id="hobby3" name="hobbies" value="music">
+    <label for="hobby3">Music</label><br><br>
+
+    <!--File Upload-->
+    <label for="file">Upload Profile Picture:</label><br>
+    <input type="file" id="file" name="profile_picture" accept="image/*"><br><br>
+
+    <!--Color Picker-->
+    <label for="color">Choose a color:</label><br>
+    <input type="color" id="color" name="favorite_color"><br><br>
+
+    <!--Range Slider-->
+    <label for="range">Select your satisfaction level:</label><br>
+    <input type="range" id="range" name="satisfaction" min="0" max="10"><br><br>
+
+    <!--Submit and Reset Button-->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
